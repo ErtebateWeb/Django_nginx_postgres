@@ -7,6 +7,6 @@ WORKDIR src
 
 EXPOSE 8000
 
-RUN /py/bin/pip install -r /requiremets/development.txt
+RUN /py/bin/pip install -r /requirements/development.txt
 
 ENV PATH="/py/bin:$PATH"
